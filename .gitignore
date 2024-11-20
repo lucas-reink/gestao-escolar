@@ -1,11 +1,13 @@
-# Ignorar dependências de pacotes
-node_modules/
+# Ignorar node_modules dentro da pasta backend
+/backend/node_modules/
 
-# Ignorar arquivos de log
+# Ignorar o arquivo .env dentro da pasta backend
+/backend/.env
+
+# Ignorar arquivos de log em qualquer parte do projeto
 *.log
 
-# Ignorar arquivos do sistema (macOS)
+# Ignorar arquivos do sistema (macOS) em qualquer parte do projeto
 .DS_Store
 
-# Ignorar arquivos de ambiente
-.env
+

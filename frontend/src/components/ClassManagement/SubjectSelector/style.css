@@ -1,0 +1,21 @@
+/* Seleção de disciplinas - Layout simples e funcional */
+.subject-selector {
+    margin-bottom: 20px;
+}
+
+.subject-selector label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.subject-selector select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    min-height: 120px;
+}

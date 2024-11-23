@@ -1,0 +1,52 @@
+src/
+├── components/
+│   ├── Common/                 # Componentes reutilizáveis e genéricos
+│   │   ├── Button/
+│   │   ├── Dropdown/
+│   │   ├── Modal/
+│   │   ├── Pagination/
+│   │   ├── Table/
+│   │   ├── ToastNotification/
+│   ├── Dashboard/              # Componentes principais do dashboard
+│   │   ├── DashboardOverview/
+│   │   ├── NotificationPanel/
+│   │   ├── SearchBar/
+│   │   ├── ActivityLog/
+│   ├── Students/               # Gestão de alunos
+│   │   ├── StudentTable/
+│   │   ├── StudentForm/
+│   │   ├── StudentProfile/
+│   │   ├── AttendanceTracker/
+│   ├── Teachers/               # Gestão de professores
+│   │   ├── TeacherTable/
+│   │   ├── TeacherForm/
+│   │   ├── TeacherProfile/
+│   ├── Classes/                # Gestão de turmas
+│   │   ├── ClassTable/
+│   │   ├── ClassForm/
+│   │   ├── SubjectSelector/
+│   │   ├── ClassOverview/
+│   ├── Finance/                # Gestão financeira
+│   │   ├── FinancialOverview/
+│   │   ├── PaymentTable/
+│   │   ├── InvoiceGenerator/
+│   │   ├── PaymentForm/
+│   ├── Calendar/               # Gestão de calendário
+│   │   ├── Calendar/
+│   │   ├── EventForm/
+│   │   ├── EventList/
+│   ├── Reports/                # Relatórios e gráficos
+│   │   ├── PerformanceChart/
+│   │   ├── AttendanceChart/
+│   │   ├── FinancialChart/
+│   ├── Settings/               # Configurações e gerenciamento
+│   │   ├── UserManagement/
+│   │   ├── SettingsForm/
+│   ├── Extras/                 # Funcionalidades adicionais
+│   │   ├── FileUploader/
+│   │   ├── ExportButton/
+│   │   ├── ChatSupport/
+│   ├── Layout/                 # Layout geral
+│   │   ├── Navbar/
+│   │   ├── Sidebar/
+│   │   ├── Footer/

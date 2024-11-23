@@ -1,0 +1,43 @@
+/* Estilo da lista de eventos - Layout simples e funcional */
+.event-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.event-list h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.event-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.event-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-date {
+    font-size: 14px;
+    color: #007bff;
+}
+
+.event-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.event-item p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+}

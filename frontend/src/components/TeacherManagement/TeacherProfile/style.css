@@ -1,0 +1,42 @@
+/* Perfil do professor - Exibição detalhada */
+.teacher-profile {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.teacher-profile h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.teacher-profile p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.teacher-profile h4 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.teacher-profile ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.teacher-profile li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.teacher-profile tr:hover {
+    background-color: #f8f9fa;
+}

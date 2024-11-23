@@ -1,0 +1,66 @@
+/* Tabela de alunos - Design simples e responsivo */
+.student-table {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.student-table h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.student-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.student-table th,
+.student-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.student-table th {
+    background-color: #f7f7f7;
+}
+
+.student-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+.edit-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.delete-button:hover {
+    background-color: #e53935;
+}

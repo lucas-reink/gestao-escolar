@@ -1,0 +1,78 @@
+/* Estilos principais da Sidebar */
+.sidebar {
+    width: 220px;
+    background-color: #ffffff; /* Cor de fundo clara */
+    border-right: 1px solid #e0e0e0; /* Linha divisória sutil */
+    height: calc(100vh - 120px); /* Altura ajustada (Navbar e Footer combinados) */
+    padding: 20px;
+    position: fixed;
+    top: 60px; /* Respeita a altura da Navbar */
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow-y: auto;
+}
+
+/* Título do menu */
+.sidebar .heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Lista de links */
+.sidebar .list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo dos itens */
+.sidebar .list li {
+    margin-bottom: 15px;
+}
+
+/* Estilo dos links */
+.sidebar .link {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9; /* Fundo sutil */
+}
+
+/* Hover e foco nos links */
+.sidebar .link:hover,
+.sidebar .link:focus {
+    background-color: #4CAF50; /* Cor de destaque ao passar o mouse */
+    color: #ffffff;
+    transform: translateX(5px); /* Pequeno deslocamento para a direita */
+}
+
+/* Links ativos */
+.sidebar .link.active {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Scroll customizado */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #b0b0b0;
+    border-radius: 3px;
+}

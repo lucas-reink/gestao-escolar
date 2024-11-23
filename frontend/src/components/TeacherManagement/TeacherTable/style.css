@@ -1,0 +1,35 @@
+/* Tabela de professores - Design simples e responsivo */
+.teacher-table {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-table h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.teacher-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.teacher-table th,
+.teacher-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.teacher-table th {
+    background-color: #f7f7f7;
+}
+
+.teacher-table tr:hover {
+    background-color: #f8f9fa;
+}

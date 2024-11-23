@@ -1,0 +1,37 @@
+.student-management {
+    padding: 20px;
+   
+}
+
+.student-management h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos do Modal */
+.modal {
+    background-color: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

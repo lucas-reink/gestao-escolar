@@ -1,0 +1,59 @@
+/* Navbar container */
+.navbar {
+    background-color: #ffffff; /* Cor de fundo branca para um visual limpo */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para um leve destaque */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+  }
+  
+  /* Navbar container interno */
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; /* Largura máxima */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Links do menu */
+  .navbar .menu {
+    text-decoration: none; /* Remove sublinhado */
+    color: #333; /* Cor do texto */
+    font-size: 16px;
+    font-weight: 500; /* Peso médio para destacar */
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+  }
+  
+  /* Efeito hover nos links */
+  .navbar .menu:hover {
+    color: #007bff; /* Azul para interatividade */
+    transform: scale(1.1); /* Leve aumento no tamanho */
+  }
+  
+  /* Link ativo */
+  .navbar .menu.active {
+    color: #007bff;
+    font-weight: 600; /* Levemente mais pesado para destacar */
+    border-bottom: 2px solid #007bff; /* Linha indicadora */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .navbar .container {
+      flex-direction: column; /* Menu em coluna */
+      padding: 10px 0;
+    }
+  
+    .navbar .menu {
+      margin: 10px 0;
+    }
+  }
+  

@@ -1,0 +1,28 @@
+/* Contêiner principal para o layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que ocupe a altura total da janela */
+  background-color: #f4f5f7; /* Fundo suave para contraste */
+  font-family: 'Arial', sans-serif; /* Fonte limpa e moderna */
+}
+
+/* Estilo para o conteúdo */
+.content-container {
+  display: flex;
+  flex: 1;
+  margin-top: 60px; /* Compensa a altura da navbar */
+}
+
+
+/* Conteúdo principal */
+.main-content {
+  margin-left: 260px; /* Largura da Sidebar */
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  border-left: 1px solid #e0e0e0;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+

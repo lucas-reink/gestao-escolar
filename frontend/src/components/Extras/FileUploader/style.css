@@ -1,0 +1,35 @@
+.file-uploader {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.file-uploader h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.file-uploader input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.file-uploader button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file-uploader button:hover {
+    background-color: #218838;
+}
+
+.file-uploader p {
+    font-size: 14px;
+    color: #333;
+}

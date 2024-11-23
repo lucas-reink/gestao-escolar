@@ -1,0 +1,25 @@
+/* Barra de Pesquisa - Design simples e acessível */
+.search-bar {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-bar input:focus {
+    border-color: #007bff;
+}
+
+.search-bar input::placeholder {
+    color: #aaa;
+}

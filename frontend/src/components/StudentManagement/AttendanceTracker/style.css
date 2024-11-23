@@ -1,0 +1,42 @@
+/* Rastreador de presença - Tabela de status */
+.attendance-tracker {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-tracker h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.attendance-tracker table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-tracker th,
+.attendance-tracker td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.attendance-tracker th {
+    background-color: #f7f7f7;
+}
+
+.attendance-tracker select {
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.attendance-tracker tr:hover {
+    background-color: #f8f9fa;
+}

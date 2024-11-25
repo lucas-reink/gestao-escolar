@@ -6,7 +6,7 @@ const StudentForm = ({ onStudentAdded }) => {
     const [name, setName] = useState('');
     const [enrollment, setEnrollment] = useState('');
     const [className, setClassName] = useState('');
-    const [status, setStatus] = useState('active');
+    const [status, setStatus] = useState('ativo');
 
     const handleSubmit = async (e) => {
         e.preventDefault(); // Previne o reload da página
@@ -54,8 +54,8 @@ const StudentForm = ({ onStudentAdded }) => {
                 <div className="form-group">
                     <label>Status:</label>
                     <select value={status} onChange={(e) => setStatus(e.target.value)}>
-                        <option value="active">Ativo</option>
-                        <option value="inactive">Inativo</option>
+                        <option value="ativo">Ativo</option>
+                        <option value="inativo">Inativo</option>
                     </select>
                 </div>
                 <button type="submit">Salvar</button>

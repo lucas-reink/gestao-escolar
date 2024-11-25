@@ -11,6 +11,7 @@ import Calendar from './components/Calendar/Calendar';
 import Settings from './components/Settings/SettingsForm';
 import NotificationPanel from './components/Dashboard/NotificationPanel';
 import ActivityLog from './components/Dashboard/ActivityLog';
+import StudentProfile from './components/StudentManagement/StudentProfile'
 
 import './App.css';
 
@@ -46,6 +47,9 @@ const App = () => {
 
               {/* Registro de Atividades */}
               <Route path="/activity-log" element={<ActivityLog />} />
+
+              {/* Student Profile */}
+              <Route path="/student-profile/:studentId" element={<StudentProfile />} />
             </Routes>
           </div>
         </div>

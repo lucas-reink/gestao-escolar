@@ -8,42 +8,42 @@ const Sidebar = () => {
             <h3 className="heading">Menu</h3>
             <ul className="list">
                 <li>
-                    <NavLink to="/" className="link" activeClassName="active">
+                    <NavLink to="/" className={({ isActive }) => isActive ? 'link active' : 'link'}>
                         Home
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/student-management" className="link" activeClassName="active">
+                    <NavLink to="/student-management" className={({ isActive }) => isActive ? 'link active' : 'link'}>
                         Alunos
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/teacher-management" className="link" activeClassName="active">
+                    <NavLink to="/teacher-management" className={({ isActive }) => isActive ? 'link active' : 'link'}>
                         Professores
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/class-management" className="link" activeClassName="active">
+                    <NavLink to="/class-management" className={({ isActive }) => isActive ? 'link active' : 'link'}>
                         Turmas
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/calendar" className="link" activeClassName="active">
+                    <NavLink to="/calendar" className={({ isActive }) => isActive ? 'link active' : 'link'}>
                         Calendário
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/settings" className="link" activeClassName="active">
+                    <NavLink to="/settings" className={({ isActive }) => isActive ? 'link active' : 'link'}>
                         Configurações
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/notifications" className="link" activeClassName="active">
+                    <NavLink to="/notifications" className={({ isActive }) => isActive ? 'link active' : 'link'}>
                         Notificações
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/activity-log" className="link" activeClassName="active">
+                    <NavLink to="/activity-log" className={({ isActive }) => isActive ? 'link active' : 'link'}>
                         Registro de Atividades
                     </NavLink>
                 </li>

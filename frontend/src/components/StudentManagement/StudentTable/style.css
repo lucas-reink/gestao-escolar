@@ -4,6 +4,7 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-spacing: 0; /* Remove o espaçamento entre células */
 }
 
 .student-table h3 {
@@ -14,8 +15,9 @@
 
 .student-table table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate; /* Usar border-collapse separado para permitir o spacing */
     margin-top: 10px;
+    border-spacing: 0 10px; /* Ajusta o espaçamento entre as linhas */
 }
 
 .student-table th,
@@ -34,15 +36,25 @@
     background-color: #f8f9fa;
 }
 
+/* Ajuste nas células da primeira coluna */
+.student-table td:first-child {
+    padding-left: 20px; /* Margem à esquerda para a primeira célula */
+}
+
+/* Ajuste nas células da última coluna */
+.student-table td:last-child {
+    padding-right: 0; /* Remove o padding extra à direita */
+}
+
 .edit-button {
-    padding: 12px 20px;
+    padding: 12px 12px;
     font-size: 16px;
     background-color: #45a049;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 30%;
+    width: 70px;
 }
 
 .edit-button:hover {
@@ -50,14 +62,14 @@
 }
 
 .delete-button {
-    padding: 12px 20px;
+    padding: 12px 12px;
     font-size: 16px;
     background-color: #e53935;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 30%;
+    width: 70px;
     margin-left: 10px;
 }
 
